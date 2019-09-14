@@ -24,7 +24,7 @@ header{
     height: 100vh;
     background: #f2f2f2;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 99;
 }
 #logo{
     text-align: center;
@@ -34,7 +34,7 @@ header{
 #logo a img{}
 
 nav{
-    padding-top: 8rem;
+    padding-top: 11rem;
 }
 nav div{
     margin-top: 3rem;
@@ -43,10 +43,10 @@ nav div a{
     display: block;
     text-align: center;
     font-size: 1.7rem;
-    color: #888;
-/*    font-weight: bold;*/
+/*    color: #888;*/
+    font-weight: bold;
     transition: 0.3s;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     width: 100%;
 }
 nav div a .mbar{
@@ -87,7 +87,7 @@ nav div:nth-child(1){
     font-size: 5rem;
     font-style: normal;
     line-height: 1.3;
-    top: 210px;
+    top: 160px;
     left: 435px;
     font-family: 'S-CoreDream-1Thin';
 }
@@ -197,6 +197,81 @@ nav div:nth-child(1){
     left: 1550px;
 }
 
-.contents .sub3{}
+.contents .sub3{
+    position: relative;
+}
+
+.sub3 .sub3_title{
+    position: absolute;
+    font-size: 5rem;
+    font-style: normal;
+    line-height: 1.3;
+    top: 160px;
+    left: 435px;
+    font-family: 'S-CoreDream-1Thin';
+    z-index: 4;
+}
+.sub3_title b{
+    font-family: 'S-CoreDream-2ExtraLight';
+    font-weight: 900;
+}
+.sub3_title button a{
+    display: inline-block;
+}
+.sub3_title button{
+    display: block;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 3rem;
+    font-family: 'S-CoreDream-1Thin';
+    padding: 5px 35px 12px 35px;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.sub3_title button:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+.contents .sub3_bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#59458c,#a078bf);
+/*    background: #000;*/
+    overflow: hidden;
+    position: relative;
+}
+.contents .sub3_bg img.sub3_img1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.contents .sub3_bg img.sub3_img2{
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+.contents .sub3_bg img.sub3_img3{
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+@keyframes sub3_bg1{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.sub3_bg img.sub3_img2{
+    position: absolute;
+    animation: sub3_bg1 1s linear infinite alternate;
+}
+@keyframes sub3_bg2{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.sub3_bg img.sub3_img3{
+    position: absolute;
+    animation: sub3_bg2 1s linear infinite alternate;
+}
+
+
 
 .contents .sub4{}
