@@ -146,7 +146,7 @@ section{
     font-size: 13px;
     color: #c89ee8;
     float: left;
-    margin: 10px 0 0 213px;
+    margin: 10px 0 0 233px;
     font-family: 'S-CoreDream-7ExtraBold'
 }
 .con1_t .ct_text{
@@ -165,7 +165,7 @@ section{
     font-size: 13px;
     color: #c89ee8;
     float: left;
-    margin: 78px 0 0 213px;
+    margin: 78px 0 0 233px;
     font-family: 'S-CoreDream-7ExtraBold'
 }
 .con1_b .cb_text{
@@ -177,7 +177,7 @@ section{
     color: #3e3a39;
 }
 .con1_b img{
-    margin-left: 317px;
+    margin-left: 337px;
 }
 
 .con2{
@@ -190,7 +190,7 @@ section{
     font-size: 13px;
     color: #c89ee8;
     float: left;
-    margin: 10px 0 0 213px;
+    margin: 10px 0 0 233px;
     font-family: 'S-CoreDream-7ExtraBold'
 }
 .con2_t .ct_text{
@@ -201,7 +201,7 @@ section{
     color: #3e3a39;
 }
 .con2_t .ct_app{
-    margin: 100px 0 0 320px;
+    margin: 100px 0 0 340px;
     float: left;
 }
 .ct_app .ios{}
@@ -228,14 +228,14 @@ section{
 .con3{
     position: absolute;
     z-index: 95;
-    top: 1788px;
+    top: 1730px;
     overflow: hidden;
 }
 .con3 .ct_title{
     font-size: 13px;
     color: #c89ee8;
     float: left;
-    margin: 10px 0 0 213px;
+    margin: 10px 0 0 233px;
     font-family: 'S-CoreDream-7ExtraBold';
 }
 .con3 .ct_text{
@@ -249,7 +249,7 @@ section{
     float: left;
 /*    width: 893px;*/
 /*    height: 846px;*/
-    margin: 66px 0 0 325px;
+    margin: 66px 0 0 345px;
 }
 .resource li{
     float: left;
