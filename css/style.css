@@ -274,7 +274,7 @@ nav .menu4{
 }
 .sub2 .sub2_title{
     position: absolute;
-    top: 200px;
+    bottom: 220px;
     left: 490px;   
     z-index: 3;    
 }
@@ -395,13 +395,13 @@ nav .menu4{
 
 .sub3 .sub3_title{
     position: absolute;
-    top: 140px;
+    top: 115px;
     left: 680px;
     z-index: 4;
 }
 .sub3 .more{
     position: absolute;
-    top: 29em;
+    top: 27em;
     left: 66.5em;
 }
 .sub3 .more>a{
