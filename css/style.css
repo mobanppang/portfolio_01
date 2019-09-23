@@ -179,44 +179,21 @@ nav .menu4{
     bottom: 0px;
     left: 320px;
 }
-.sub1_title .more a{
+.sub1 .more>a{
     display: inline-block;
     position: relative;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Noto Serif', serif;
     font-weight: bold;
-    z-index: 10;
+    z-index: 20;
+    color: #8360ff;
+    border: 1px solid #8360ff;
+    padding: 5px 30px 10px;
+    border-radius: 50px;
+    transition: all 0.3s;
 }
-.more .morebar{
-    display: inline-block;
-    width: 50px;
-    border-bottom: 1px solid #333;
-    transition: 0.3s;
-    margin-left: 10px;
-}
-.morebar::before{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 1px;
-    transform: rotate(45deg);
-    background: #333;
-    position: absolute;
-    right: -0.1em;
-    bottom: 0.45em;
-}
-
-.more a:hover .morebar{
-    width: 70px;
-}
-.more_bar{
-    background: url(../img/sub1_more_img1.png);
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    bottom: 0;
-    left: -20px;
-    z-index: 9;
+.sub1 .more:hover a{
+    background: rgba(131, 96, 255, 0.3);
 }
 
 
@@ -297,7 +274,7 @@ nav .menu4{
 }
 .sub2 .sub2_title{
     position: absolute;
-    top: 223px;
+    top: 200px;
     left: 490px;   
     z-index: 3;    
 }
@@ -346,7 +323,7 @@ nav .menu4{
 .sub2 .more{
     position: absolute;
     bottom: 111px;
-    left: 524px;
+    left: 510px;
     color: #727171;
     z-index: 11;
 }
@@ -358,28 +335,23 @@ nav .menu4{
     font-weight: bold;
     z-index: 10;
 }
-.more .morebar{
+.sub2 .more>a{
     display: inline-block;
-    width: 50px;
-    border-bottom: 1px solid #727171;
-    transition: 0.3s;
-    margin-left: 10px;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    z-index: 20;
+    color: #727171;
+    border: 1px solid #727171;
+    padding: 5px 30px 10px;
+    border-radius: 50px;
+    transition: all 0.3s;
 }
-.morebar::before{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 1px;
-    transform: rotate(45deg);
-    background: #727171;
-    position: absolute;
-    right: -0.1em;
-    bottom: 0.45em;
+.sub2 .more:hover a{
+    background: rgba(114, 113, 113, 0.3);
 }
 
-.more a:hover .morebar{
-    width: 70px;
-}
 
 .contents .sub3{
     position: relative;
@@ -423,41 +395,30 @@ nav .menu4{
 
 .sub3 .sub3_title{
     position: absolute;
-    top: 144px;
-    left: 661px;
+    top: 140px;
+    left: 680px;
     z-index: 4;
 }
 .sub3 .more{
     position: absolute;
-    top: 32em;
-    left: 62em;
+    top: 29em;
+    left: 66.5em;
 }
 .sub3 .more>a{
     display: inline-block;
     position: relative;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Noto Serif', serif;
     font-weight: bold;
     z-index: 20;
     color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 5px 30px 10px;
+    border-radius: 50px;
+    transition: all 0.3s;
 }
-.sub3 .more .morebar{
-    display: inline-block;
-    width: 50px;
-    border-bottom: 1px solid #f2f2f2;
-    transition: 0.3s;
-    margin-left: 10px;
-}
-.sub3 .morebar::before{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 1px;
-    transform: rotate(45deg);
-    background: #f2f2f2;
-    position: absolute;
-    right: -0.1em;
-    bottom: 0.5em;
+.sub3 .more:hover a{
+    background: rgba(242, 242, 242, 0.3);
 }
 
 .sub3 .more a:hover .morebar{
