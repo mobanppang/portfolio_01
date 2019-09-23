@@ -9,7 +9,8 @@
     <link rel="icon" type="imge/png" href="img/teb_icon.png">
     <script src="script/jquery-3.4.1.min.js"></script>
     <script src="script/script.js"></script>
-    <script src="fullPage/dist/fullpage.extensions.min.js"></script>
+    <script src="fullpage/fullpage.min.js"></script>
+    <link rel="stylesheet" href="fullpage/fullpage.min.css">
     <link href="https://fonts.googleapis.com/css?family=Jua|Nanum+Myeongjo|Noto+Serif:400i,700i|Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,15 +21,15 @@
          </div>
          <nav>
              <div class="menu1">
-                <a href="#" onclick="btn(1)">ui/ux</a>
+                <a href="#">ui/ux</a>
                 <span class="mbar"></span>
              </div>
              <div class="menu2">
-                <a href="#" onclick="btn(2)">Package</a>
+                <a href="#">Package</a>
                 <span class="mbar"></span>
              </div>
              <div class="menu3">
-                <a href="sub3.html" onclick="btn(3)">Resource</a>
+                <a href="sub3.html">Resource</a>
                 <span class="mbar"></span>
              </div>
              <div class="menu4">
@@ -137,8 +138,23 @@
               <div class="btext">RECOURCE</div>
           </div>
          </div>
-      
+        
       </div>
-    </div>    
+    </div> 
+      
+      
+      <script>
+          new fullpage('.contents',{
+              licenseKey:'',
+              navigation: true,
+              navigationTooltips:['ui/ux','package','resource']
+          });
+    
+    
+    
+    
+    </script>
+      
+      
 </body>
 </html>
