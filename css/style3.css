@@ -1,10 +1,11 @@
 @charset 'utf-8';
 
 *{margin: 0;padding: 0;}
-html,body{font-size: 12px; color: #333; font-family: 'NanumSquare', sans-serif !important;}
+html,body{font-size: 12px; color: #333;}
 img{vertical-align: bottom;}
 button{border: none; background: transparent;}
 a{text-decoration: none; color: inherit;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;}
 ::selection {
     background: rgba(255, 216, 0, 0.99);
     color: #333;
@@ -58,9 +59,9 @@ header{
 }
 .profile{
     float: right;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 900;
-    padding-top: 35px;
+    padding-top: 40px;
     letter-spacing: 2px;
 }
 
@@ -79,6 +80,7 @@ main{
     color: #fff;
     z-index: 97;
     position: relative;
+    font-family: 'NanumSquare', sans-serif !important;
 }
 .mtitle_1{}
 .mtitle_1>span{
@@ -127,6 +129,7 @@ section{
 .con1 h1 .comment{
     position: absolute;
     z-index: 92;
+    font-family: 'NanumSquare', sans-serif !important;
 }
 .con1 h1 .comment_bar{
     display: block;
@@ -157,6 +160,7 @@ section{
     border-bottom: 1px solid #eee;
     padding-bottom: 95px;
     color: #3e3a39;
+    letter-spacing: -1px;
 }
 .con1 .con1_b{
     float: left;
@@ -175,6 +179,7 @@ section{
     margin: 75px 0 0 66px;
     padding-bottom: 34px;
     color: #3e3a39;
+    letter-spacing: -1px;
 }
 .con1_b img{
     margin-left: 337px;
@@ -190,7 +195,7 @@ section{
     font-size: 13px;
     color: #c89ee8;
     float: left;
-    margin: 10px 0 0 233px;
+    margin: 15px 0 0 233px;
     font-family: 'S-CoreDream-7ExtraBold'
 }
 .con2_t .ct_text{
@@ -199,6 +204,7 @@ section{
     float: left;
     margin: 10px 0 0 40px;
     color: #3e3a39;
+    letter-spacing: -1px;
 }
 .con2_t .ct_app{
     margin: 100px 0 0 340px;
@@ -235,7 +241,7 @@ section{
     font-size: 13px;
     color: #c89ee8;
     float: left;
-    margin: 10px 0 0 233px;
+    margin: 15px 0 0 233px;
     font-family: 'S-CoreDream-7ExtraBold';
 }
 .con3 .ct_text{
@@ -244,6 +250,7 @@ section{
     float: left;
     margin: 10px 0 0 40px;
     color: #3e3a39;
+    letter-spacing: -1px;
 }
 .con3 .resource{
     float: left;
@@ -256,6 +263,7 @@ section{
     width: 281px;
     height: 457px;
     box-sizing: border-box;
+    font-family: 'NanumSquare', sans-serif !important;
 }
 .resource li+li{
 /*    padding-left: 23px;*/
@@ -324,6 +332,7 @@ section .con4{
 }
 .con4 .ct_title{
     text-align: center;
+    letter-spacing: -1px;
 }
 .con4 .ct_title h1{
     font-size: 48px;
@@ -331,6 +340,7 @@ section .con4{
     width: 450px;
     margin: auto;
     z-index: 1;
+    font-family: 'NanumSquare', sans-serif !important;
 }
 .con4 .ct_title span{
     display: block;

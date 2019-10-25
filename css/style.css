@@ -6,6 +6,7 @@ img{vertical-align: bottom;}
 button{border: none; background: transparent;}
 a{text-decoration: none; color: inherit;}
 ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;}
 ::selection {
     background: rgba(255, 216, 0, 0.99);
     color: #333;
