@@ -1,0 +1,14 @@
+$(document).ready(function(){
+            $("button.modify").click(function(){
+                $(".hide1").fadeIn()
+            })
+            $(".hide1").click(function(){
+                $(this).hide()
+            })
+            $("button.memo").click(function(){
+                $(".hide2").fadeIn()
+            })
+            $(".hide2").click(function(){
+                $(this).hide()
+            })
+        })
