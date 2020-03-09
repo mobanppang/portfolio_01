@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style3.css">
     <link rel="icon" type="imge/png" href="img/teb_icon.png">
     <link href="https://fonts.googleapis.com/css?family=Jua|Nanum+Myeongjo|Noto+Serif:400i,700i|Open+Sans&display=swap" rel="stylesheet">
+    <script src="script/jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -145,7 +146,16 @@
             <img src="img/sub3_con4_img1.png" alt="" class="con4_1">
         <img src="img/sub3_con4_img2.png" alt="" class="con4_2">
         </div>
-        
+        <div class="topbtn"><img src="img/topbtn.png" alt=""></div>
     </div>
+    <script>
+        $(document).ready(function(){
+            $('.topbtn').click(function(){
+                $('html ,body').animate({scrollTop  : 0},500)
+            });
+        });
+    
+    
+    </script>
 </body>
 </html>

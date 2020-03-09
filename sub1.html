@@ -13,7 +13,7 @@
 <body>
     <div id="wrap">
        <div class="bar"></div>
-            <header>
+       <header>
          <div id="logo">
              <h1><a href="index.html"><img src="img/logo_2.png" alt=""></a></h1>
          </div>
@@ -36,7 +36,7 @@
              </div>
          </nav>
      </header>
-            <main>
+       <main>
 <!--                <img src="img/portfolio_sub01_2-01.jpg" alt="">-->
                 <div class="mtitletop boxalign">
                     <ul>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="mainbg"></div>
             </main>
-            <section>
+       <section>
                 <div id="con1">
                    <div class="boxalign">
                    <div class="con1_1">
@@ -256,7 +256,19 @@
                     </div>
                 </div>
             </section>
-            <footer></footer>
-        </div>
+        
+        <div class="topbtn"><img src="img/topbtn.png" alt=""></div>
+    
+       <script>
+        $(document).ready(function(){
+            $('.topbtn').click(function(){
+                $('html ,body').animate({scrollTop  : 0},500)
+            });
+        });
+    
+    
+       </script>
+    
+    </div>
 </body>
 </html>
